@@ -1,0 +1,15 @@
+/* formatação para links que não foi visitados */
+a:link{
+    color: #b9c941;
+}
+/* formatação para links depois de clicar no link */
+a:visited{
+    color: #c0c0c0;
+}
+a:hover{
+    color: violet;
+}
+/* para quando vc clicar mudar de cor */
+a:active{
+    color: cadetblue;
+}
