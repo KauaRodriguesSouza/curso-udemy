@@ -1,0 +1,62 @@
+.conteudo{
+    height: 400px;
+    background-color: #ccc;
+    display: flex;
+
+   /* flex-direction: row;
+
+   flex-wrap: nowrap;
+
+   justify-content: space-around;
+
+   align-items: baseline; */
+
+
+}
+
+.item{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid black;
+
+    /* faz com que faça que o item ocupa o espaço total da tela */
+    flex-grow: 0;
+
+    flex-shrink: 1;
+
+    flex-basis: auto;
+}
+
+ .item1{
+    flex-shrink: 1;
+}
+
+.item2{
+    flex-shrink: 2;
+} 
+
+.item3{
+    flex-shrink: 3;
+}
+/* 
+.ordem1{
+    order: 3;
+}
+
+.ordem2{
+    order: 1;
+}
+
+.ordem3{
+    order: 2;
+}
+
+.ordem4{
+    order: 3;
+} */
+
+/* .ordem{
+    order: -1;
+} */
