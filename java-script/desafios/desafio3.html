@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio 3</title>
+</head>
+<body>
+    <script>
+
+        var nome = prompt('digite seu nome')
+        document.write(nome)
+
+        var altura = parseFloat(prompt(' digite sua altura em centimetros'))
+        altura /= 100
+        document.write('<br> ' + altura + 'cm <br>')
+
+        var peso = parseFloat(prompt('digite seu peso'))
+        document.write(peso +'KG <br>')
+
+        var m = parseFloat( peso / (altura * altura) )
+        document.write(m + '<br>')
+
+        
+            if ( m< 16 ){
+                var clas = document.write('Baixo peso muito grave ')
+            }
+
+            else if ( m >16 && m < 16.99){  
+                var class = document.write('Baixo peso grave')
+            }
+
+            else if ( m >= 17 && m <= 18.49 ) {
+                var class = document.write('Baixo peso')
+            }
+
+            else if ( m >= 18.50 && m < 24.99) {
+                var class = document.write('peso normal')
+            }
+
+            else if ( m >= 25 && m <= 29.99){ 
+                var class = document.write('sobre peso')
+            }
+
+            else if ( m >= 30 && m <= 34.99){ 
+                var class = ('Obesidade grau 1')
+            }
+            else if ( m >= 35 && m <= 39.99 ){
+                var class = document.write('Obsidade grau 2')
+            }
+            
+            else if ( m >= 40){
+                var clas = document.write('Obsidade grau 3')
+            }
+
+            else{
+               var class = document.write('algo esta errado <br>')
+            }
+
+    document.write( nome + 'possui índice de massa corporal igual a ' + m  + ', sendo classificado como:' )
+
+    </script>
+</body>
+</html>
