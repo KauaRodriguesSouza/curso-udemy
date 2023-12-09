@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eventos </title>
+    <style>
+        div{
+            width: 150px;
+            height: 150px;
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+     
+    <div onclick="clicar1" onmouseout="clicar2()"></div>
+
+    
+
+    <script>
+        function clicar1(){
+            alert('você clicou')
+        }
+
+        function clicar2(){
+            alert('o cursor saiu do elemento')
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - manipulando classes e elementos</title>
+
+    <style>
+
+        .estilo1{
+            background-color: rgb(43, 132, 167);
+            color: white;
+        }
+        .estilo2{
+            background-color: blueviolet;
+            width: 400px;
+            height: 50px;
+            color: white;
+            text-align: center;
+            border: 1px black;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    
+     <div id="mensagem" class="estilo1">Modificando as classes e os elementos</div>
+     <hr>
+
+     <button onclick="ModificarClasse()" on >aplicar classe</button>
+
+    <script>
+        function ModificarClasse(){
+            document.getElementById("mensagem").className = 'estilo2'
+        }
+    </script>
+</body>
+</html>

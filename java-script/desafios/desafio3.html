@@ -23,41 +23,43 @@
 
         
             if ( m< 16 ){
-                var clas = document.write('Baixo peso muito grave ')
+                var clas = 'Baixo peso muito grave '
             }
 
             else if ( m >16 && m < 16.99){  
-                var class = document.write('Baixo peso grave')
+                var clas = 'Baixo peso grave'
             }
 
             else if ( m >= 17 && m <= 18.49 ) {
-                var class = document.write('Baixo peso')
+                var clas = 'Baixo peso'
             }
 
             else if ( m >= 18.50 && m < 24.99) {
-                var class = document.write('peso normal')
+                var clas = 'peso normal'
             }
 
             else if ( m >= 25 && m <= 29.99){ 
-                var class = document.write('sobre peso')
+                var clas = 'sobre peso'
             }
 
             else if ( m >= 30 && m <= 34.99){ 
-                var class = ('Obesidade grau 1')
+                var clas = 'Obesidade grau 1'
             }
             else if ( m >= 35 && m <= 39.99 ){
-                var class = document.write('Obsidade grau 2')
+                var clas = 'Obsidade grau 2'
             }
             
             else if ( m >= 40){
-                var clas = document.write('Obsidade grau 3')
+                var clas = 'Obsidade grau 3'
             }
 
             else{
-               var class = document.write('algo esta errado <br>')
+               var clas = 'algo esta errado <br>'
             }
 
-    document.write( nome + 'possui índice de massa corporal igual a ' + m  + ', sendo classificado como:' )
+            document.write(clas)
+
+    document.write('<br>' + nome + ' possui índice de massa corporal igual a ' + m  + ', sendo clasificado como: ' + clas )
 
     </script>
 </body>

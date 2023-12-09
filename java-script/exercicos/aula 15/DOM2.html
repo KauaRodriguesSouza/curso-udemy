@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+
+    <style>
+        div {
+            width: 150px;
+            height: 150px;
+            margin: 13px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button onclick="clicar('#ff0000', '200px', '50px')">vermelho</button>
+    <button onclick="clicar('#00ff00', '100px', '250px')">azul</button>
+    <button onclick="clicar('#0000ff', '10px', '10px')">verde</button>
+
+    <div id="caixa">
+    
+    </div>
+
+    <script>
+
+
+
+        function clicar(tamanho , lgr , alt) {
+
+            document.getElementById("caixa").style.backgroundColor = tamanho
+            document.getElementById("caixa").style.width = lgr
+            document.getElementById("caixa").style.height = alt
+
+        }
+
+
+    </script>
+
+</body>
+
+</html>
