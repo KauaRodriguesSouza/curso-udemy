@@ -12,7 +12,7 @@ function calcular(tipo, valor) {
         }
 
         if (valor === '=') {
-
+            
             var soma = eval(document.getElementById("resultado").value)
 
             document.getElementById("resultado").value = soma
