@@ -8,7 +8,7 @@ projeto calculadora: https://kauarodriguessouza.github.io/curso-udemy/projetos/p
 
 projetos feitos em html e css:
 
-link do projeto tecblog: https://kauarodriguessouza.github.io/curso-udemy/projeto%20tecblog/index.html
+link do projeto tecblog: https://kauarodriguessouza.github.io/curso-udemy/projeto-20tecblog/index.html
 
 projeto ana bella: https://kauarodriguessouza.github.io/curso-udemy/projetos/projeto-ana-bella/index.html
 
