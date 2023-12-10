@@ -3,7 +3,7 @@
 
 projetos em javascript:
 
-projeto calculadora: https://kauarodriguessouza.github.io/curso-udemy/projetos/calculadora/projeto_calculadora.html
+projeto calculadora: https://kauarodriguessouza.github.io/curso-udemy/projetos/projeto%20calculadora/projeto_calculadora.html
 
 
 projetos feitos em html e css:
