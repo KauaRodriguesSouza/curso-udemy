@@ -1,25 +1,92 @@
 function calcular(tipo, valor){
 
-    if(tipo === 'acao'){
-        if(valor === 'c'){
-            document.getElementById("resultado").value = ''
+    if (tipo === 'acao'){
+
+        if (valor === 'c') {
+            document.getElementById('caixa').value = ""
         }
 
-        if(valor === '+' || valor === '*' || valor === '-' || valor === '/' || valor === '.'){
-            document.getElementById("resultado").value += valor
+        if (valor === '+' || valor === '-' || valor === '/' || valor === '*') {
+
+            document.getElementById('caixa').value += valor
+
         }
 
-        if(valor === '='){
-            var soma = eval(document.getElementById("resultado").value)
+        if (valor === '='){
 
-            document.getElementById("resultado").value = soma
+            const soma = eval(document.getElementById('caixa').value)
+
+            document.getElementById('caixa').value = soma
+
         }
+
     }
-    else if(tipo === 'valor'){
 
-    document.getElementById("resultado").value += valor
+    if (tipo === 'valor'){
+
+        document.getElementById('caixa').value += valor 
+
     }
 
     
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// if(tipo === 'acao'){
+//     if(valor === 'c'){
+//         document.getElementById("caixa").value = ''
+//     }
+
+//     if(valor === '+' || valor === '*' || valor === '-' || valor === '/' || valor === '.'){
+//         document.getElementById("caixa").value += valor
+//     }
+
+//     if(valor === '='){
+//         var soma = eval(document.getElementById("caixa").value)
+
+//         document.getElementById("caixa").value = soma
+//     }
+// }
+// else if(tipo === 'valor'){
+
+// document.getElementById("caixa").value += valor
+// }
